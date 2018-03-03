@@ -21,12 +21,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initialize();
-        listener();
     }
 
     private void initialize() {
         btnImagePicker = (Button) findViewById(R.id.btn_image_picker);
         imageView = (ImageView) findViewById(R.id.imageview);
+        listener();
     }
 
     private void listener() {
